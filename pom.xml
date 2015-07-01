@@ -94,6 +94,7 @@
     <module>tajo</module>
     <module>flink</module>
     <module>ignite</module>
+    <module>emma</module>
     <module>zeppelin-web</module>
     <module>zeppelin-server</module>
     <module>zeppelin-distribution</module>
@@ -429,6 +430,8 @@
               <exclude>Roadmap.md</exclude>
               <exclude>conf/interpreter.json</exclude>
               <exclude>spark-*-bin*/**</exclude>
+              <exclude>data/*</exclude>
+              <exclude>**/pom.properties</exclude>
             </excludes>
           </configuration>
 
